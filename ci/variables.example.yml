@@ -1,0 +1,13 @@
+cf-api-url: api.system.cumuluslabs.io
+cf-username: harpal.singh2@cognizant.com
+cf-password: 448b7e0c
+cf-org: hsingh2-PAL-JAN16
+github-repository: git@github.com:214169/pal-tracker-distributed.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDN+c45VL1nRLR1NTrpXkac8Sc27eBYEKTR63S7RLdCOTd2hObH+PgadHjGH/zws7vN0LBKaqQmcQbMrC2+x/pr66bbD8xvby5AZpscq76tAvLDE/PiJ/36AQKCZxxQlaQnPhlohaGgjVZINodZdMSnl5r0e/O0lEIt6zA3d08pe8XxLbIUDvk4pfzsmZvsT4dZ4ij5y+CCWnfXq4/9+0rrwCXudwCZ4eBYqvXW+T9BoT7xW8cpNJYOWEJf0HiAuKNmfmkxlMTn560pldUtbvvBHcezPodPqvRwR0v53b5d2294lnbIVyBBqfiD/31pPp/AY67/szUXHMSB0XjqZPRGvUijoAfQ62e27SIgWNr/6OrZHHRPP3em/F/Dkysi21wkNU0sby5+vMwkunfpYZJdUMeAuQy4/FtDxDhpi1/Bx5/q4G+IrabMwScVMXhIhEEsFhi02XM/YIo/RQOFrddi9clgbLicte+KV6laJyKneBKV9AYGDT6MdEBLWVoXI3JS4XgRQmX95UhMiwVmwMmICdNVAq89RGE/jN6Af/lLpVIM+CUvCy3khFvM8tLhEGP8lFKssN77rizrI/OMUyLvUExfiSlcV4fT+T1PYw/CjaELyn0u215bgpEpzGxsdjTt0DxE9HZohrCpNNBhT+Ee1MHBDYMgrZQ/TRvI8JFc6Q== harpalsgh@gmail.com
+  -----END RSA PRIVATE KEY-----
+aws-access-key-id: <YOUR_ACCESS_KEY>
+aws-secret-access-key: <YOUR_SECRET_KEY>
+aws-bucket: <YOUR_AWS_S3_BUCKET>
+aws-region-name: <YOUR_AWS_S3_REGION>

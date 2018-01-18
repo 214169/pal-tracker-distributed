@@ -14,7 +14,7 @@ resources:
     key: pal-tracker-distributed/current-version
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
-    region: {{aws-region-name}}
+    region_name: {{aws-region-name}}
 
 - name: allocations-artifacts
   type: s3
@@ -23,7 +23,7 @@ resources:
     regexp: pal-tracker-distributed/allocations-server-(.*).jar
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
-    region: {{aws-region-name}}
+    region_name: {{aws-region-name}}
 
 - name: backlog-artifacts
   type: s3
@@ -32,7 +32,7 @@ resources:
     regexp: pal-tracker-distributed/backlog-server-(.*).jar
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
-    region: {{aws-region-name}}
+    region_name: {{aws-region-name}}
 
 - name: registration-artifacts
   type: s3
@@ -41,7 +41,7 @@ resources:
     regexp: pal-tracker-distributed/registration-server-(.*).jar
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
-    region: {{aws-region-name}}
+    region_name: {{aws-region-name}}
 
 - name: timesheets-artifacts
   type: s3
@@ -50,7 +50,7 @@ resources:
     regexp: pal-tracker-distributed/timesheets-server-(.*).jar
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
-    region: {{aws-region-name}}
+    region_name: {{aws-region-name}}
 
 - name: cf
   type: cf
